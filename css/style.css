@@ -180,6 +180,17 @@ footer #copy-p {
     border-right: 1px solid #1A1D20; 
 }
 
+/* -=-=-=-=-=-=-=-=-=-=-=-=-= BORDE PERSONALIZADO -=-=-=-=-=-=-=-=-=-=-=-=-= */
+
+.iron-media {
+    border-radius: 10px !important;
+    border-image-outset: 7px 8px 7px 8px !important;
+    border-image-width: 16px !important;
+    border-image-slice: 16 fill !important;
+    border-image-source: url(../img/Others/metal_frame.png) !important;
+    border-image-repeat: round !important;
+}
+
 /* -=-=-=-=-=-=-=-=-=-=-=-=-= MAIN -=-=-=-=-=-=-=-=-=-=-=-=-= */
 
 /* INDEX.HTML */
@@ -257,12 +268,11 @@ footer #copy-p {
     padding-top: 30px;
 }
 
-.section-data-bg-color {
+.section-data-expansions-bg {
     background-image: url(../img/Images/Fondos/FondoFooter.jpg);
     box-shadow: 0 0 10px 1px black inset;
     background-repeat: no-repeat;
     background-size: cover;
-    background-color: #1F1714 !important;
 }
 
 /* CLASES.HTML */
