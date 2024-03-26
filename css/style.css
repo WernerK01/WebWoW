@@ -215,6 +215,10 @@ footer #copy-p {
     transform: none !important;
 }
 
+.accordion-button:hover {
+    color: #eed01a !important;
+}
+
 .accordion-button:focus {
     color: #eed01a !important;
     border: 1px solid #eed01a;
