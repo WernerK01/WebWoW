@@ -108,67 +108,7 @@ a:hover {
     text-align: center;
 }
 
-/* 3ro texto del fondo */
-.fondos-textos-3 {
-    position: absolute;
-    right: 15%;
-    bottom: -100rem;
-    left: 15%;
-    padding-top: 9rem;
-    padding-bottom: 9rem;
-    color: #fff;
-    text-align: center;
-}
-
-/* 4to texto del fondo */
-.fondos-textos-4 {
-    position: absolute;
-    right: 15%;
-    bottom: -150rem;
-    left: 15%;
-    padding-top: 9rem;
-    padding-bottom: 9rem;
-    color: #fff;
-    text-align: center;
-}
-
-/* 5to texto del fondo */
-.fondos-textos-5 {
-    position: absolute;
-    right: 15%;
-    bottom: -200rem;
-    left: 15%;
-    padding-top: 9rem;
-    padding-bottom: 9rem;
-    color: #fff;
-    text-align: center;
-}
-
-/* 6to texto del fondo */
-.fondos-textos-6 {
-    position: absolute;
-    right: 15%;
-    bottom: -250rem;
-    left: 15%;
-    padding-top: 9rem;
-    padding-bottom: 9rem;
-    color: #fff;
-    text-align: center;
-}
-
-/*7mo texto del fondo*/
-.fondos-textos-7 {
-    position: absolute;
-    right: 15%;
-    bottom: -300rem;
-    left: 15%;
-    padding-top: 9rem;
-    padding-bottom: 9rem;
-    color: #fff;
-    text-align: center;
-}
-
-.fondos-textos h1,h2, .fondos-textos-2 h1,h2, .fondos-textos-3 h1,h2, .fondos-textos-4 h1,h2, .fondos-textos-5 h1,h2, .fondos-textos-6 h1,h2, .fondos-textos-7 h1,h2 {
+.fondos-textos h1,h2, .fondos-textos-2 h1,h2 {
     font-size: 50px;
     color: #eed01a;
     font-weight: bold;
@@ -177,7 +117,7 @@ a:hover {
     font-family: "Orienta", sans-serif;
 }
 
-.fondos-textos p, .fondos-textos-2 p, .fondos-textos-3 p, .fondos-textos-4 p, .fondos-textos-5 p, .fondos-textos-6 p,.fondos-textos-7 p {
+.fondos-textos p, .fondos-textos-2 p {
     font-size: 20px; 
     color: #ebdec2;
     text-shadow: 1px 2px black;
@@ -367,14 +307,14 @@ footer #copy-p {
     }
 
 
-    .fondos-textos h1,h2, .fondos-textos-2 h1,h2, .fondos-textos-3 h1,h2, .fondos-textos-4 h1,h2, .fondos-textos-5 h1,h2, .fondos-textos-6 h1,h2 {
+    .fondos-textos h1,h2, .fondos-textos-2 h1,h2 {
         font-size: 30px;
         color: #eed01a;
         font-weight: bold;
         text-shadow: 3px 3px black;
     }
     
-    .fondos-textos p, .fondos-textos-2 p, .fondos-textos-3 p, .fondos-textos-4 p, .fondos-textos-5 p, .fondos-textos-6 p {
+    .fondos-textos p, .fondos-textos-2 p {
         font-size: 18px; 
         color: #ebdec2;
         text-shadow: 1px 2px black;
