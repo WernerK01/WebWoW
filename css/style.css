@@ -30,9 +30,9 @@ body {
 
 /* -=-=-=-=-=-= H's... -=-=-=-=-=-= */
 h1,h2,h3,h4,h5,h6 {
-    color: #eed01a  !important;;
-    font-weight: bold  !important;;
-    text-shadow: 3px 3px black  !important;;
+    color: #eed01a  !important;
+    font-weight: bold  !important;
+    text-shadow: 3px 3px black  !important;
 
     font-family: "Orienta", sans-serif !important;
 }
@@ -287,6 +287,10 @@ footer #copy-p {
 
 .img-logo-razas {
     height: 25vh;
+}
+
+.world-card-title {
+    font-size: 2rem !important;
 }
 
 /* -=-=-=-=-=-= EXPANSION - CARDS -=-=-=-=-=-= */
