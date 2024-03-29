@@ -67,6 +67,14 @@ a:hover {
     background-color: #000000ab;
 }
 
+.bg-asistencia {
+    background-color:#1e1414e0;
+}
+
+.bg-from-control {
+    background-color:#2B1D1C !important
+}
+
 
 /* -=-=-=-=-=-= Fondos-textos -=-=-=-=-=-= */
 
@@ -291,6 +299,21 @@ footer #copy-p {
 
 .world-card-title {
     font-size: 2rem !important;
+}
+
+/* CONSULTA.HTML */
+
+.label-text {
+    color: #ebdec2 !important;
+}
+
+.form-control {
+    border: 1px solid black;
+}
+
+.form-control:focus {
+    border: 1px solid #eed01a;
+    box-shadow: 0 0 0 0.25rem rgba(64, 47, 46, 0.7) !important;
 }
 
 /* -=-=-=-=-=-= EXPANSION - CARDS -=-=-=-=-=-= */
