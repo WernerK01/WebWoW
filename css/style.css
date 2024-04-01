@@ -288,6 +288,10 @@ footer #copy-p {
     background-image: url(../img/Images/Fondos/FondoClases2.png);
 }
 
+.section-data-class .card {
+    border-radius: 0;
+}
+
 /* MUNDO.HTML */
 .img-world {
     border-radius: 10px;
