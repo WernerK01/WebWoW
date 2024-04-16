@@ -1,0 +1,58 @@
+.fondo-global {
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.fondos-textos {
+    position: absolute;
+    right: 15%;
+    bottom: 9rem;
+    left: 15%;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+    color: #fff;
+    text-align: center;
+    
+    h1, h2 {
+        font-size: 50px;
+        color: #eed01a;
+        font-weight: bold;
+        text-shadow: 3px 3px black;
+    
+        font-family: "Orienta", sans-serif;
+    }
+
+    p {
+        font-size: 20px; 
+        color: #ebdec2;
+        text-shadow: 1px 2px black;
+    }
+}
+
+.fondos-textos-2 {
+    position: absolute;
+    right: 15%;
+    bottom: -50rem;
+    left: 15%;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+    color: #fff;
+    text-align: center;
+
+    h1, h2 {
+        font-size: 50px;
+        color: #eed01a;
+        font-weight: bold;
+        text-shadow: 3px 3px black;
+    
+        font-family: "Orienta", sans-serif;
+    }
+
+    p {
+        font-size: 20px; 
+        color: #ebdec2;
+        text-shadow: 1px 2px black;
+    }
+}

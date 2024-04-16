@@ -1,0 +1,28 @@
+.section-data {
+    background-image: url(../img/Images/Fondos/FondoAzul.jpg);
+    border-radius: 10px; 
+
+    margin: 15px;
+
+    padding-top: 30px;
+
+    .section-data-expansions-bg {
+        background-image: url(../img/Images/Fondos/FondoFooter.jpg);
+        box-shadow: 0 0 10px 1px black inset;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    .text-lanzamiento {
+        color:#ebdec2;
+        font-size: 14px;
+    }
+    
+    .card-text {
+        text-shadow: 2px 2px black;
+    }
+    
+    .card-img-top {
+        width: 250px;
+    }
+}

@@ -1,0 +1,11 @@
+{
+  "name": "4",
+  "version": "1.0.0",
+  "description": "Mi página Web de World of Warcraft hasta la expansión Mist of Pandaria. Una página hecha para aprendizage de HTML y CSS con el framework Boostrap y SSAS.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

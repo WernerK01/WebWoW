@@ -1,0 +1,40 @@
+.header {
+    border-bottom: 2px solid black;
+    
+    .header-bg {
+        background-image:  url(../../img/Images/Fondos/FondoHeader.jpeg);
+    }
+
+    .nav-link {
+        color:#eed01a;
+    
+        text-decoration: none;
+    
+        font-weight: bold;
+        font-size: 18px;
+    
+        text-shadow: #000 1px 2px;
+
+        &:hover {
+            color:white;
+            background-color: #ffffff0d;
+            border-radius: 5px;
+        }
+    }
+
+    .navbar-toggler {
+        border: 0;
+        color:white !important;
+
+        &:focus {
+            background-color: #ffffff0d;
+            border-radius: 5px;
+            box-shadow: none;
+        }
+    }
+    
+    [data-bs-theme=dark] .navbar-toggler-icon {
+        --bs-navbar-toggler-icon-bg: url(../../img/Others/icon-menu.png);
+    }
+
+}

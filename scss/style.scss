@@ -1,0 +1,30 @@
+@import './base/base.scss';
+
+// COMPONENTS
+@import './components/backgrounds';
+@import './components/list.scss';
+@import './components/accordion.scss';
+@import './components/border.scss';
+
+// LAYOUT
+@import './layout/header.scss';
+@import './layout/footer.scss';
+
+@import './components/lineas.scss';
+
+
+@import './layout/section-bg-texts.scss';
+
+
+@import './layout/expansions.scss';
+
+@import './layout/class.scss';
+
+@import './layout/consulta.scss';
+
+
+//  QUERYS
+@import './media-queries/media-4k.scss';
+@import './media-queries/media-laptop.scss';
+@import './media-queries/media-mobile.scss';
+@import './media-queries/media-mobile-rotated.scss';

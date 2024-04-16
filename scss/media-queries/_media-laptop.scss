@@ -1,0 +1,74 @@
+@media only screen and (min-width: 1024px) {
+
+    .fondos-textos {
+        position: absolute;
+        right: 15%;
+        bottom: 10.25rem;
+        left: 15%;
+        padding-top: 10.25rem;
+        padding-bottom: 10.25rem;
+        color: #fff;
+        text-align: center;
+
+        h1,h2 {
+            font-size: 30px;
+            color: #eed01a;
+            font-weight: bold;
+            text-shadow: 3px 3px black;
+        }
+
+        p {
+            font-size: 18px; 
+            color: #ebdec2;
+            text-shadow: 1px 2px black;
+        }
+    }
+
+
+    .fondos-textos-2 {
+
+        position: absolute;
+        right: 15%;
+        bottom: -40rem;
+        left: 15%;
+        padding-top: 9rem;
+        padding-bottom: 9rem;
+        text-align: center;
+
+        h1,h2 {
+            font-size: 30px;
+            color: #eed01a;
+            font-weight: bold;
+            text-shadow: 3px 3px black;
+        }
+        p {
+            font-size: 18px; 
+            color: #ebdec2;
+            text-shadow: 1px 2px black;
+        }
+    }
+
+    .main-world {
+        .img-world {
+            max-height: 200px;
+            height: 180px;
+        }
+
+        .fondo-global{
+            height: 100vh;
+        }
+
+        .world-text {
+            display: none;
+        }
+    }
+
+    .bgs-razas {
+
+        height: 100vh;
+
+        .img-logo-razas {
+            height: 15vh;
+        }
+    }
+}

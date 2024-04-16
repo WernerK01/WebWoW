@@ -1,0 +1,10 @@
+.bg-list {
+    background-color: #2B1D1C;
+    border: 2px solid black;
+}
+
+.list-item-action {
+    &:hover {
+        color: #eed01a;
+    }
+}

@@ -1,0 +1,23 @@
+.footer {
+    margin-top: auto;
+    background-image: url(../../img/Images/Fondos/FondoHeader.jpeg);
+
+    .container {
+        .row {
+            border-bottom: 1px solid #312A25;
+            
+            .col {
+                margin: 5px;
+                padding: 15px;
+            }
+        }
+
+        .footer-icon {
+            transition: 1s;
+            &:hover {   
+                width: 160px;
+            }
+        }
+    }
+
+}

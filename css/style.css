@@ -1,387 +1,498 @@
-/* -=-=-=-=-=-=-=-=-=-=-=-=-= FONTS -=-=-=-=-=-=-=-=-=-=-=-=-=*/
-.ar-one {
-    font-family: "AR One Sans", sans-serif;
-    font-optical-sizing: auto;
-    font-style: normal;
-    font-variation-settings:
-      "ARRR" 15;
-}
-
-.orienta-regular {
-    font-family: "Orienta", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-  }
-
-
-/* -=-=-=-=-=-=-=-=-=-=-=-=-= DEFAULT  / INICIO -=-=-=-=-=-=-=-=-=-=-=-=-= */
-
 body {
-    font-family: "AR One Sans", sans-serif;
-    font-size: 16px;
-    background-color:  black;
-    color: white;
+  font-family: "AR One Sans", sans-serif;
+  font-size: 16px;
+  background-color: black;
+  color: white;
 }
 
-.cards-background {
-    background-color: #000000ab !important;
+::selection {
+  background-color: #211510;
+  color: #fff;
 }
 
-
-/* -=-=-=-=-=-= H's... -=-=-=-=-=-= */
-h1,h2,h3,h4,h5,h6 {
-    color: #eed01a  !important;
-    font-weight: bold  !important;
-    text-shadow: 3px 3px black  !important;
-
-    font-family: "Orienta", sans-serif !important;
+h1, h2, h3, h4, h5, h6 {
+  color: #eed01a !important;
+  font-weight: bold;
+  text-shadow: 3px 3px black;
+  font-family: "Orienta", sans-serif;
 }
-
-/* -=-=-=-=-=-= Parrafos -=-=-=-=-=-= */
 
 p {
-    color: white;
-    font-family: "AR One Sans", sans-serif;
+  color: white;
+  font-family: "AR One Sans", sans-serif;
 }
 
-/* -=-=-=-=-=-= Listas y Links -=-=-=-=-=-= */
-
 li {
-    list-style: none;
-    margin: 15px;
+  list-style: none;
+  margin: 15px;
 }
 
 a {
-    color: #eed01a;
-    text-decoration: none;
+  color: #eed01a;
+  text-decoration: none;
 }
 
 a:hover {
-    color: white;
+  color: white;
 }
-
-
-/* -=-=-=-=-=-= Fondos -=-=-=-=-=-= */
 
 .bg-dark-opacity {
-    background-color: #000000ab;
+  background-color: rgba(0, 0, 0, 0.6705882353);
 }
 
-.bg-asistencia {
-    background-color:#1e1414e0;
+.header {
+  border-bottom: 2px solid black;
+}
+.header .header-bg {
+  background-image: url(../../img/Images/Fondos/FondoHeader.jpeg);
+}
+.header .nav-link {
+  color: #eed01a;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  text-shadow: #000 1px 2px;
+}
+.header .nav-link:hover {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.0509803922);
+  border-radius: 5px;
+}
+.header .navbar-toggler {
+  border: 0;
+  color: white !important;
+}
+.header .navbar-toggler:focus {
+  background-color: rgba(255, 255, 255, 0.0509803922);
+  border-radius: 5px;
+  box-shadow: none;
+}
+.header [data-bs-theme=dark] .navbar-toggler-icon {
+  --bs-navbar-toggler-icon-bg: url(../../img/Others/icon-menu.png);
 }
 
-.bg-from-control {
-    background-color:#2B1D1C !important
+.footer {
+  margin-top: auto;
+  background-image: url(../../img/Images/Fondos/FondoHeader.jpeg);
+}
+.footer .container .row {
+  border-bottom: 1px solid #312A25;
+}
+.footer .container .row .col {
+  margin: 5px;
+  padding: 15px;
+}
+.footer .container .footer-icon {
+  transition: 1s;
+}
+.footer .container .footer-icon:hover {
+  width: 160px;
 }
 
+.line-left {
+  border-left: 1px solid #1A1D20;
+}
 
-/* -=-=-=-=-=-= Fondos-textos -=-=-=-=-=-= */
-
-.bgs-razas {
-    height: 80vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+.line-right {
+  border-right: 1px solid #1A1D20;
 }
 
 .fondo-global {
-    height: 100vh;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
-/* 1er texto del fondo */
 .fondos-textos {
+  position: absolute;
+  right: 15%;
+  bottom: 9rem;
+  left: 15%;
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+  color: #fff;
+  text-align: center;
+}
+.fondos-textos h1, .fondos-textos h2 {
+  font-size: 50px;
+  color: #eed01a;
+  font-weight: bold;
+  text-shadow: 3px 3px black;
+  font-family: "Orienta", sans-serif;
+}
+.fondos-textos p {
+  font-size: 20px;
+  color: #ebdec2;
+  text-shadow: 1px 2px black;
+}
+
+.fondos-textos-2 {
+  position: absolute;
+  right: 15%;
+  bottom: -50rem;
+  left: 15%;
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+  color: #fff;
+  text-align: center;
+}
+.fondos-textos-2 h1, .fondos-textos-2 h2 {
+  font-size: 50px;
+  color: #eed01a;
+  font-weight: bold;
+  text-shadow: 3px 3px black;
+  font-family: "Orienta", sans-serif;
+}
+.fondos-textos-2 p {
+  font-size: 20px;
+  color: #ebdec2;
+  text-shadow: 1px 2px black;
+}
+
+.bg-list {
+  background-color: #2B1D1C;
+  border: 2px solid black;
+}
+
+.list-item-action:hover {
+  color: #eed01a;
+}
+
+.border-accordion {
+  border: 1px solid black;
+}
+
+.border-accordion-header {
+  border-bottom: 1px solid black;
+}
+
+.accordion-button {
+  color: white;
+  background-color: #2B1D1C !important;
+}
+.accordion-button::after {
+  background-image: url(../img/Others/buttom-expand.png);
+  transition: none;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url(../img/Others/buttom-unexpand.png);
+  transform: none;
+}
+.accordion-button:hover {
+  color: #eed01a;
+}
+.accordion-button:focus {
+  color: #eed01a;
+  border: 1px solid #eed01a;
+  box-shadow: 0 0 0 0.25rem rgba(64, 47, 46, 0.7);
+}
+
+.accordion-item {
+  background-color: #1E1414;
+}
+
+.question {
+  margin: 20px;
+}
+
+.question-border {
+  border-bottom: 1px solid rgb(64, 47, 46);
+}
+
+.accordion-body {
+  padding: 10px 10px;
+}
+
+.accordion-body-question {
+  padding-right: 15px;
+  font-weight: bold;
+}
+
+.section-data {
+  background-image: url(../img/Images/Fondos/FondoAzul.jpg);
+  border-radius: 10px;
+  margin: 15px;
+  padding-top: 30px;
+}
+.section-data .section-data-expansions-bg {
+  background-image: url(../img/Images/Fondos/FondoFooter.jpg);
+  box-shadow: 0 0 10px 1px black inset;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.section-data .text-lanzamiento {
+  color: #ebdec2;
+  font-size: 14px;
+}
+.section-data .card-text {
+  text-shadow: 2px 2px black;
+}
+.section-data .card-img-top {
+  width: 250px;
+}
+
+.section-data-class {
+  background-image: url(../img/Images/Fondos/FondoClases2.png);
+}
+.section-data-class .card {
+  border-radius: 0;
+}
+.section-data-class .card .text {
+  color: #ebdec2;
+  font-size: 14px;
+}
+
+.consulta-text {
+  display: none !important;
+}
+
+.bg-asistencia {
+  background-color: rgba(30, 20, 20, 0.8784313725);
+}
+.bg-asistencia .form-control {
+  border: 1px solid black;
+}
+.bg-asistencia .form-control .label-text {
+  color: #ebdec2 !important;
+}
+.bg-asistencia .form-control:focus {
+  border: 1px solid #eed01a;
+  box-shadow: 0 0 0 0.25rem rgba(64, 47, 46, 0.7) !important;
+}
+.bg-asistencia .bg-from-control {
+  background-color: #2B1D1C !important;
+}
+
+@media only screen and (max-width: 2560px) and (max-width: 1440px) {
+  .fondos-textos {
     position: absolute;
     right: 15%;
-    bottom: 9rem;
+    bottom: 10.25rem;
+    left: 15%;
+    padding-top: 3.25rem;
+    padding-bottom: 3.25rem;
+    color: #fff;
+    text-align: center;
+  }
+  .fondos-textos h1, .fondos-textos h2 {
+    font-size: 50px;
+    color: #eed01a;
+    font-weight: bold;
+    text-shadow: 3px 3px black;
+  }
+  .fondos-textos p {
+    font-size: 25px;
+    color: #ebdec2;
+    text-shadow: 1px 2px black;
+  }
+  .fondos-textos-2 h1, .fondos-textos-2 h2 {
+    font-size: 50px;
+    color: #eed01a;
+    font-weight: bold;
+    text-shadow: 3px 3px black;
+  }
+  .fondos-textos-2 p {
+    font-size: 25px;
+    color: #ebdec2;
+    text-shadow: 1px 2px black;
+  }
+}
+@media only screen and (min-width: 1024px) {
+  .fondos-textos {
+    position: absolute;
+    right: 15%;
+    bottom: 10.25rem;
+    left: 15%;
+    padding-top: 10.25rem;
+    padding-bottom: 10.25rem;
+    color: #fff;
+    text-align: center;
+  }
+  .fondos-textos h1, .fondos-textos h2 {
+    font-size: 30px;
+    color: #eed01a;
+    font-weight: bold;
+    text-shadow: 3px 3px black;
+  }
+  .fondos-textos p {
+    font-size: 18px;
+    color: #ebdec2;
+    text-shadow: 1px 2px black;
+  }
+  .fondos-textos-2 {
+    position: absolute;
+    right: 15%;
+    bottom: -40rem;
     left: 15%;
     padding-top: 9rem;
     padding-bottom: 9rem;
-    color: #fff;
     text-align: center;
+  }
+  .fondos-textos-2 h1, .fondos-textos-2 h2 {
+    font-size: 30px;
+    color: #eed01a;
+    font-weight: bold;
+    text-shadow: 3px 3px black;
+  }
+  .fondos-textos-2 p {
+    font-size: 18px;
+    color: #ebdec2;
+    text-shadow: 1px 2px black;
+  }
+  .main-world .img-world {
+    max-height: 200px;
+    height: 180px;
+  }
+  .main-world .fondo-global {
+    height: 100vh;
+  }
+  .main-world .world-text {
+    display: none;
+  }
+  .bgs-razas {
+    height: 100vh;
+  }
+  .bgs-razas .img-logo-razas {
+    height: 15vh;
+  }
 }
-
-/* 2do texto del fondo */
-.fondos-textos-2 {
+@media only screen and (max-width: 425px) {
+  .fondos-textos {
+    position: absolute;
+    right: 15%;
+    bottom: 6.25rem;
+    left: 15%;
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
+    text-align: center;
+  }
+  .fondos-textos h1, .fondos-textos h2 {
+    font-size: 25px;
+    color: #eed01a;
+    font-weight: bold;
+    text-shadow: 3px 3px black;
+  }
+  .fondos-textos p {
+    font-size: 15px;
+    color: #ebdec2;
+    text-shadow: 1px 2px black;
+  }
+  .fondos-textos-2 {
     position: absolute;
     right: 15%;
     bottom: -50rem;
     left: 15%;
     padding-top: 9rem;
     padding-bottom: 9rem;
-    color: #fff;
     text-align: center;
-}
-
-.fondos-textos h1,h2, .fondos-textos-2 h1,h2 {
-    font-size: 50px;
+  }
+  .fondos-textos-2 h1, .fondos-textos-2 h2 {
+    font-size: 25px;
     color: #eed01a;
     font-weight: bold;
     text-shadow: 3px 3px black;
-
-    font-family: "Orienta", sans-serif;
-}
-
-.fondos-textos p, .fondos-textos-2 p {
-    font-size: 20px; 
+  }
+  .fondos-textos-2 p {
+    font-size: 15px;
     color: #ebdec2;
     text-shadow: 1px 2px black;
+  }
+  .main-world .world-text {
+    display: none;
+  }
+  .main-world .img-world {
+    display: none !important;
+  }
+  .main-world .card-text {
+    font-size: 12px !important;
+  }
+  .bgs-razas {
+    height: 100vh;
+  }
+  .bgs-razas .races-text {
+    margin: 10px;
+  }
+  .bgs-razas .img-logo-razas {
+    height: 12vh;
+  }
 }
-
-/* -=-=-=-=-=-=-=-=-=-=-=-=-= HEADER -=-=-=-=-=-=-=-=-=-=-=-=-= */
-
-header {
-    background-image: url(../img/Images/Fondos/FondoFooter1.jpeg);
-    border-bottom: 2px solid black;
-}
-
-header .nav-link {
+@media only screen and (max-width: 930px) and (orientation: landscape) {
+  .fondos-textos {
+    position: absolute;
+    right: 15%;
+    bottom: 0.25rem;
+    left: 15%;
+    padding-top: 2.25rem;
+    padding-bottom: 2.25rem;
+    text-align: center;
+  }
+  .fondos-textos h1, .fondos-textos h2 {
+    font-size: 18px;
     color: #eed01a;
-    
-    text-decoration: none;
-    text-transform: uppercase;
-
     font-weight: bold;
-    font-size: 15px;
-
-    text-shadow: #000 1px 2px;
-
-}
-
-header .nav-link:hover {
-    color:white;
-    background-color: #ffffff0d;
-    border-radius: 5px;
-}
-
-/* -=-=-=-=-=-=-=-=-=-=-=-=-= FOOTER -=-=-=-=-=-=-=-=-=-=-=-=-= */
-
-footer {
-    margin-top: auto;
-    background-image: url(../img/Images/Fondos/FondoFooter1.jpeg);
-}
-
-footer .container .row {
-    border-bottom: 1px solid #312A25;
-}
-
-footer .col {
-    margin: 5px;
-    padding: 15px;
-}
-
-footer #copy-p {
-    color: #343A40;
-    opacity: 80%;
-}
-
-/* -=-=-=-=-=-=-=-=-=-=-=-=-= LINEAS -=-=-=-=-=-=-=-=-=-=-=-=-= */
-
-.line-left {
-    border-left: 1px solid #1A1D20; 
-}
-
-.line-right {
-    border-right: 1px solid #1A1D20; 
-}
-
-/* -=-=-=-=-=-=-=-=-=-=-=-=-= BORDE PERSONALIZADO -=-=-=-=-=-=-=-=-=-=-=-=-= */
-
-.iron-media {
-    border-radius: 10px !important;
-    border-image-outset: 7px 8px 7px 8px !important;
-    border-image-width: 16px !important;
-    border-image-slice: 16 fill !important;
-    border-image-source: url(../img/Others/metal_frame.png) !important;
-    border-image-repeat: round !important;
-}
-
-/* -=-=-=-=-=-=-=-=-=-=-=-=-= MAIN -=-=-=-=-=-=-=-=-=-=-=-=-= */
-
-/* INDEX.HTML */
-.bg-list {
-    background-color: #2B1D1C !important;
-    border: 2px solid black;
-}
-
-.list-item-action:hover {
-    color: #eed01a !important;
-}
-
-.border-accordion {
-    border: 1px solid black !important;
-}
-
-.border-accordion-header {
-    border-bottom: 1px solid black !important;
-}
-
-.accordion-button {
-    color: white !important;
-    background-color: #2B1D1C !important;
-}
-
-.accordion-button::after {
-    background-image: url(../img/Others/buttom-expand.png);
-    transition: none !important;
-}
-
-.accordion-button:not(.collapsed)::after {
-    background-image: url(../img/Others/buttom-unexpand.png);
-    transform: none !important;
-}
-
-.accordion-button:hover {
-    color: #eed01a !important;
-}
-
-.accordion-button:focus {
-    color: #eed01a !important;
-    border: 1px solid #eed01a;
-    box-shadow: 0 0 0 0.25rem rgba(64, 47, 46, 0.7) !important;
-}
-
-.accordion-item {
-    background-color: #1E1414 !important;
-}
-
-.question {
-    margin: 20px;
-}
-
-.question-border {
-    border-bottom: 1px solid rgba(64, 47, 46);
-}
-
-.accordion-body {
-    padding: 10px 10px;
-}
-
-.accordion-body-question {
-    padding-right: 15px;
+    text-shadow: 3px 3px black;
+  }
+  .fondos-textos p {
+    font-size: 13px;
+    color: #ebdec2;
+    text-shadow: 1px 2px black;
+  }
+  .fondos-textos-2 {
+    position: absolute;
+    right: 15%;
+    bottom: -23rem;
+    left: 15%;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+    text-align: center;
+  }
+  .fondos-textos-2 h1, .fondos-textos-2 h2 {
+    font-size: 18px;
+    color: #eed01a;
     font-weight: bold;
-    
-}
-
-/* EXPANSIONES.HTML */
-.section-data {
-    background-image: url(../img/Images/Fondos/FondoAzul.jpg);
-    border-radius: 10px; 
-
-    margin: 15px;
-
-    padding-top: 30px;
-}
-
-.section-data-expansions-bg {
-    background-image: url(../img/Images/Fondos/FondoFooter.jpg);
-    box-shadow: 0 0 10px 1px black inset;
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-
-/* CLASES.HTML */
-.section-data-class {
-    background-image: url(../img/Images/Fondos/FondoClases2.png);
-}
-
-.section-data-class .card {
-    border-radius: 0;
-}
-
-/* MUNDO.HTML */
-.img-world {
-    border-radius: 10px;
-}
-
-.img-logo-razas {
+    text-shadow: 3px 3px black;
+  }
+  .fondos-textos-2 p {
+    font-size: 13px;
+    color: #ebdec2;
+    text-shadow: 1px 2px black;
+  }
+  .main-world .world-h1 {
+    padding-top: 10px !important;
+    font-size: 1.25rem !important;
+  }
+  .main-world .world-text {
+    color: #ebdec2;
+    text-shadow: 3px 3px black;
+  }
+  .main-world .bg-dark-opacity {
+    background-color: inherit;
+  }
+  .main-world .card {
+    border: none;
+  }
+  .main-world .card .img-world {
+    display: none;
+  }
+  .main-world .card .card-text {
+    display: none;
+  }
+  .bgs-razas {
+    height: 100vh;
+  }
+  .bgs-razas .races-text {
+    margin: 10px;
+  }
+  .bgs-razas .img-logo-razas {
     height: 25vh;
+  }
+  .bg-asistencia {
+    display: none;
+  }
+  .consulta-text {
+    display: block !important;
+  }
 }
 
-.world-card-title {
-    font-size: 2rem !important;
-}
-
-/* CONSULTA.HTML */
-
-.label-text {
-    color: #ebdec2 !important;
-}
-
-.form-control {
-    border: 1px solid black;
-}
-
-.form-control:focus {
-    border: 1px solid #eed01a;
-    box-shadow: 0 0 0 0.25rem rgba(64, 47, 46, 0.7) !important;
-}
-
-/* -=-=-=-=-=-= EXPANSION - CARDS -=-=-=-=-=-= */
-
-
-.text-lanzamiento {
-    color:#ebdec2;
-    font-size: 14px;
-}
-
-.card-text {
-    text-shadow: 2px 2px black;
-}
-
-.card-img-top {
-    width: 250px;
-}
-
-/* -=-=-=-=-=-=-=-=-=-=-=-=-= QUERYS -=-=-=-=-=-=-=-=-=-=-=-=-= */
-
-@media only screen and (max-width: 1024px) {
-
-    .fondos-textos {
-        position: absolute;
-        right: 15%;
-        bottom: 3.25rem;
-        left: 15%;
-        padding-top: 3.25rem;
-        padding-bottom: 3.25rem;
-        color: #fff;
-        text-align: center;
-    }
-
-
-    .fondos-textos h1,h2, .fondos-textos-2 h1,h2 {
-        font-size: 30px;
-        color: #eed01a;
-        font-weight: bold;
-        text-shadow: 3px 3px black;
-    }
-    
-    .fondos-textos p, .fondos-textos-2 p {
-        font-size: 18px; 
-        color: #ebdec2;
-        text-shadow: 1px 2px black;
-    }
-}
-
-@media only screen and (max-width: 1024px) {
-
-    #main-world .fondo-global {
-        height: 90vh !important;
-    }
-
-    #main-world .img-world {
-        display: none !important;;
-    }
-
-    .img-logo-razas {
-        height: 15vh;
-    }
-
-    .bgs-razas {
-        height: 100vh;
-    }
-    
-}
+/*# sourceMappingURL=style.css.map */

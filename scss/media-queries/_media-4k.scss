@@ -1,0 +1,43 @@
+@media only screen and (max-width: 2560px) and (max-width: 1440px) {
+
+    .fondos-textos {
+        position: absolute;
+        right: 15%;
+        bottom: 10.25rem;
+        left: 15%;
+        padding-top: 3.25rem;
+        padding-bottom: 3.25rem;
+        color: #fff;
+        text-align: center;
+
+        h1,h2 {
+            font-size: 50px;
+            color: #eed01a;
+            font-weight: bold;
+            text-shadow: 3px 3px black;
+        }
+
+        p {
+            font-size: 25px; 
+            color: #ebdec2;
+            text-shadow: 1px 2px black;
+        }
+    }
+
+
+    .fondos-textos-2 {
+
+        h1,h2 {
+            font-size: 50px;
+            color: #eed01a;
+            font-weight: bold;
+            text-shadow: 3px 3px black;
+        }
+        p {
+            font-size: 25px; 
+            color: #ebdec2;
+            text-shadow: 1px 2px black;
+        }
+    }
+
+}

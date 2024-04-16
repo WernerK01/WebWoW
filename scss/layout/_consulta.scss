@@ -1,0 +1,26 @@
+.consulta-text {
+    display: none !important;
+}
+
+
+.bg-asistencia {
+    background-color:#1e1414e0;
+
+    .form-control {
+        border: 1px solid black;
+    
+        .label-text {
+            color: #ebdec2 !important;
+        }
+        
+        &:focus {
+            border: 1px solid #eed01a;
+            box-shadow: 0 0 0 0.25rem rgba(64, 47, 46, 0.7) !important;
+        }
+    }
+    
+    .bg-from-control {
+        background-color:#2B1D1C !important
+    }
+    
+}
