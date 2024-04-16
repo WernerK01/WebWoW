@@ -287,7 +287,7 @@ a:hover {
   font-size: 14px;
 }
 
-@media only screen and (max-width: 2560px) and (max-width: 1440px) {
+@media only screen and (min-width: 1440px) and (max-width: 2560px) {
   .fondos-textos {
     position: absolute;
     right: 15%;
@@ -321,7 +321,7 @@ a:hover {
     text-shadow: 1px 2px black;
   }
 }
-@media only screen and (min-width: 1024px) {
+@media only screen and (min-width: 1024px) and (max-width: 1440px) {
   .fondos-textos {
     position: absolute;
     right: 15%;
@@ -380,7 +380,66 @@ a:hover {
     height: 25vh;
   }
 }
-@media only screen and (max-width: 425px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .fondos-textos {
+    position: absolute;
+    right: 15%;
+    bottom: 10.25rem;
+    left: 15%;
+    padding-top: 10.25rem;
+    padding-bottom: 10.25rem;
+    color: #fff;
+    text-align: center;
+  }
+  .fondos-textos h1, .fondos-textos h2 {
+    font-size: 30px;
+    color: #eed01a;
+    font-weight: bold;
+    text-shadow: 3px 3px black;
+  }
+  .fondos-textos p {
+    font-size: 18px;
+    color: #ebdec2;
+    text-shadow: 1px 2px black;
+  }
+  .fondos-textos-2 {
+    position: absolute;
+    right: 15%;
+    bottom: -40rem;
+    left: 15%;
+    padding-top: 9rem;
+    padding-bottom: 9rem;
+    text-align: center;
+  }
+  .fondos-textos-2 h1, .fondos-textos-2 h2 {
+    font-size: 30px;
+    color: #eed01a;
+    font-weight: bold;
+    text-shadow: 3px 3px black;
+  }
+  .fondos-textos-2 p {
+    font-size: 18px;
+    color: #ebdec2;
+    text-shadow: 1px 2px black;
+  }
+  .main-world .img-world {
+    max-height: 200px;
+    height: 180px;
+  }
+  .main-world .fondo-global {
+    height: 100vh;
+  }
+  .main-world .world-text {
+    display: none;
+  }
+  .bgs-razas {
+    height: 100vh;
+  }
+  .bgs-razas .img-logo-razas {
+    height: 25vh;
+  }
+}
+@media only screen and (min-width: 320px) and (max-width: 650px) {
   .fondos-textos {
     position: absolute;
     right: 15%;

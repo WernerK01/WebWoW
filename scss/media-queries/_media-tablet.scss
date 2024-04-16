@@ -1,23 +1,24 @@
-@media only screen and (min-width: 320px) and (max-width: 650px) {
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
 
     .fondos-textos {
         position: absolute;
         right: 15%;
-        bottom: 6.25rem;
+        bottom: 10.25rem;
         left: 15%;
-        padding-top: 2.25rem;
-        padding-bottom: 2.25rem;
+        padding-top: 10.25rem;
+        padding-bottom: 10.25rem;
+        color: #fff;
         text-align: center;
 
         h1,h2 {
-            font-size: 25px;
+            font-size: 30px;
             color: #eed01a;
             font-weight: bold;
             text-shadow: 3px 3px black;
         }
 
         p {
-            font-size: 15px; 
+            font-size: 18px; 
             color: #ebdec2;
             text-shadow: 1px 2px black;
         }
@@ -28,50 +29,46 @@
 
         position: absolute;
         right: 15%;
-        bottom: -50rem;
+        bottom: -40rem;
         left: 15%;
         padding-top: 9rem;
         padding-bottom: 9rem;
         text-align: center;
-    
 
         h1,h2 {
-            font-size: 25px;
+            font-size: 30px;
             color: #eed01a;
             font-weight: bold;
             text-shadow: 3px 3px black;
         }
         p {
-            font-size: 15px; 
+            font-size: 18px; 
             color: #ebdec2;
             text-shadow: 1px 2px black;
         }
     }
 
     .main-world {
+        .img-world {
+            max-height: 200px;
+            height: 180px;
+        }
+
+        .fondo-global{
+            height: 100vh;
+        }
+
         .world-text {
             display: none;
-        }
-
-        .img-world {
-            display: none !important;
-        }
-
-        .card-text {
-            font-size: 12px !important;
         }
     }
 
     .bgs-razas {
+
         height: 100vh;
 
-        .races-text {
-            margin: 10px;
-        }
-
         .img-logo-razas {
-            height: 12vh;
+            height: 25vh;
         }
     }
-
 }
