@@ -1,0 +1,31 @@
+// PARA EXPANSIONES.HTML
+
+@mixin texto-expansiones-p {
+    text-shadow: 2px 2px black;
+}
+
+@mixin texto-lanzamiento {
+    color:#ebdec2;
+    font-size: 14px;
+}
+
+.section-data {
+    .text-lanzamiento {
+        @include texto-lanzamiento();
+    }
+
+    .card-text {
+        @include texto-expansiones-p();
+    }
+}
+
+// PARA CLASES.HTML
+
+.section-data-class {
+
+    .card {
+        .text {
+            @include texto-lanzamiento();
+        }
+    }
+}

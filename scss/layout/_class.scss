@@ -1,12 +1,8 @@
 .section-data-class {
     background-image: url(../img/Images/Fondos/FondoClases2.png);
+    border-bottom: 1px solid #495057;
 
     .card {
         border-radius: 0;
-
-        .text {
-            color: #ebdec2;
-            font-size: 14px;
-        }
     }
 }

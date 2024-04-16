@@ -1,3 +1,6 @@
+$color-principal: #eed01a;
+$color-secundario: white;
+
 * {
     margin: 0;
     padding: 0;
@@ -17,14 +20,14 @@ body {
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #eed01a !important;
+    color: $color-principal !important;
     font-weight: bold;
     text-shadow: 3px 3px black;
     font-family: "Orienta", sans-serif;
 }
 
 p {
-    color: white;
+    color: $color-secundario;
     font-family: "AR One Sans", sans-serif;
 }
 
@@ -34,10 +37,10 @@ li {
 }
 
 a {
-    color: #eed01a;
+    color: $color-principal;
     text-decoration: none;
 }
 
 a:hover {
-    color: white;
+    color: $color-secundario;
 }

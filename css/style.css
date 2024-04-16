@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
   font-family: "AR One Sans", sans-serif;
   font-size: 16px;
@@ -40,6 +46,74 @@ a:hover {
   background-color: rgba(0, 0, 0, 0.6705882353);
 }
 
+.bg-list {
+  background-color: #2B1D1C;
+  border: 2px solid black;
+}
+
+.list-item-action:hover {
+  color: #eed01a;
+}
+
+.border-accordion {
+  border: 1px solid black;
+}
+
+.border-accordion-header {
+  border-bottom: 1px solid black;
+}
+
+.accordion-button {
+  color: white;
+  background-color: #2B1D1C !important;
+}
+.accordion-button::after {
+  background-image: url(../img/Others/buttom-expand.png);
+  transition: none;
+}
+.accordion-button:not(.collapsed)::after {
+  background-image: url(../img/Others/buttom-unexpand.png);
+  transform: none;
+}
+.accordion-button:hover {
+  color: #eed01a;
+}
+.accordion-button:focus {
+  color: #eed01a;
+  border: 1px solid #eed01a;
+  box-shadow: 0 0 0 0.25rem rgba(64, 47, 46, 0.7);
+}
+
+.accordion-item {
+  background-color: #1E1414;
+}
+
+.question {
+  margin: 20px;
+}
+
+.question-border {
+  border-bottom: 1px solid rgb(64, 47, 46);
+}
+
+.accordion-body {
+  padding: 10px 10px;
+}
+
+.accordion-body-question {
+  padding-right: 15px;
+  font-weight: bold;
+}
+
+.iron-media {
+  border-radius: 10px !important;
+  border-image-outset: 7px 8px 7px 8px !important;
+  border-image-width: 16px !important;
+  border-image-slice: 16 fill !important;
+  border-image-source: url(../img/Others/metal_frame.png) !important;
+  border-image-repeat: round !important;
+}
+
 .header {
   border-bottom: 2px solid black;
 }
@@ -72,7 +146,8 @@ a:hover {
 }
 
 .footer {
-  margin-top: auto;
+  border-top: 1px solid #495057;
+  margin-top: 5px;
   background-image: url(../../img/Images/Fondos/FondoHeader.jpeg);
 }
 .footer .container .row {
@@ -150,69 +225,9 @@ a:hover {
   text-shadow: 1px 2px black;
 }
 
-.bg-list {
-  background-color: #2B1D1C;
-  border: 2px solid black;
-}
-
-.list-item-action:hover {
-  color: #eed01a;
-}
-
-.border-accordion {
-  border: 1px solid black;
-}
-
-.border-accordion-header {
-  border-bottom: 1px solid black;
-}
-
-.accordion-button {
-  color: white;
-  background-color: #2B1D1C !important;
-}
-.accordion-button::after {
-  background-image: url(../img/Others/buttom-expand.png);
-  transition: none;
-}
-.accordion-button:not(.collapsed)::after {
-  background-image: url(../img/Others/buttom-unexpand.png);
-  transform: none;
-}
-.accordion-button:hover {
-  color: #eed01a;
-}
-.accordion-button:focus {
-  color: #eed01a;
-  border: 1px solid #eed01a;
-  box-shadow: 0 0 0 0.25rem rgba(64, 47, 46, 0.7);
-}
-
-.accordion-item {
-  background-color: #1E1414;
-}
-
-.question {
-  margin: 20px;
-}
-
-.question-border {
-  border-bottom: 1px solid rgb(64, 47, 46);
-}
-
-.accordion-body {
-  padding: 10px 10px;
-}
-
-.accordion-body-question {
-  padding-right: 15px;
-  font-weight: bold;
-}
-
 .section-data {
   background-image: url(../img/Images/Fondos/FondoAzul.jpg);
-  border-radius: 10px;
-  margin: 15px;
+  border-bottom: 1px solid #495057;
   padding-top: 30px;
 }
 .section-data .section-data-expansions-bg {
@@ -220,13 +235,10 @@ a:hover {
   box-shadow: 0 0 10px 1px black inset;
   background-repeat: no-repeat;
   background-size: cover;
+  transition: 1s;
 }
-.section-data .text-lanzamiento {
-  color: #ebdec2;
-  font-size: 14px;
-}
-.section-data .card-text {
-  text-shadow: 2px 2px black;
+.section-data .section-data-expansions-bg:hover {
+  transform: scale(1.03);
 }
 .section-data .card-img-top {
   width: 250px;
@@ -234,13 +246,10 @@ a:hover {
 
 .section-data-class {
   background-image: url(../img/Images/Fondos/FondoClases2.png);
+  border-bottom: 1px solid #495057;
 }
 .section-data-class .card {
   border-radius: 0;
-}
-.section-data-class .card .text {
-  color: #ebdec2;
-  font-size: 14px;
 }
 
 .consulta-text {
@@ -249,6 +258,7 @@ a:hover {
 
 .bg-asistencia {
   background-color: rgba(30, 20, 20, 0.8784313725);
+  border-bottom: 1px solid #495057;
 }
 .bg-asistencia .form-control {
   border: 1px solid black;
@@ -262,6 +272,19 @@ a:hover {
 }
 .bg-asistencia .bg-from-control {
   background-color: #2B1D1C !important;
+}
+
+.section-data .text-lanzamiento {
+  color: #ebdec2;
+  font-size: 14px;
+}
+.section-data .card-text {
+  text-shadow: 2px 2px black;
+}
+
+.section-data-class .card .text {
+  color: #ebdec2;
+  font-size: 14px;
 }
 
 @media only screen and (max-width: 2560px) and (max-width: 1440px) {
@@ -354,7 +377,7 @@ a:hover {
     height: 100vh;
   }
   .bgs-razas .img-logo-razas {
-    height: 15vh;
+    height: 25vh;
   }
 }
 @media only screen and (max-width: 425px) {

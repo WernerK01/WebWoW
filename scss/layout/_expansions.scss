@@ -1,8 +1,6 @@
 .section-data {
     background-image: url(../img/Images/Fondos/FondoAzul.jpg);
-    border-radius: 10px; 
-
-    margin: 15px;
+    border-bottom: 1px solid #495057;
 
     padding-top: 30px;
 
@@ -11,17 +9,14 @@
         box-shadow: 0 0 10px 1px black inset;
         background-repeat: no-repeat;
         background-size: cover;
+
+        // ANIMACIÓN
+        transition: 1s;
+        &:hover {
+            transform: scale(1.03);
+        }
     }
 
-    .text-lanzamiento {
-        color:#ebdec2;
-        font-size: 14px;
-    }
-    
-    .card-text {
-        text-shadow: 2px 2px black;
-    }
-    
     .card-img-top {
         width: 250px;
     }
