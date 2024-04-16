@@ -43,7 +43,11 @@
     .bgs-razas {
 
         height: 100vh;
-        
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+
+
         .img-logo-razas {
             height: 25vh !important;
         }
