@@ -320,6 +320,12 @@ a:hover {
     color: #ebdec2;
     text-shadow: 1px 2px black;
   }
+  .bgs-razas {
+    height: 100vh;
+  }
+  .bgs-razas .img-logo-razas {
+    height: 25vh !important;
+  }
 }
 @media only screen and (min-width: 1024px) and (max-width: 1440px) {
   .fondos-textos {
@@ -377,7 +383,7 @@ a:hover {
     height: 100vh;
   }
   .bgs-razas .img-logo-razas {
-    height: 25vh;
+    height: 25vh !important;
   }
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
@@ -436,7 +442,7 @@ a:hover {
     height: 100vh;
   }
   .bgs-razas .img-logo-razas {
-    height: 25vh;
+    height: 10vh !important;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 650px) {
@@ -496,10 +502,10 @@ a:hover {
     margin: 10px;
   }
   .bgs-razas .img-logo-razas {
-    height: 12vh;
+    height: 12vh !important;
   }
 }
-@media only screen and (max-width: 930px) and (orientation: landscape) {
+@media only screen and (max-width: 1000px) and (orientation: landscape) {
   .fondos-textos {
     position: absolute;
     right: 15%;
@@ -567,7 +573,7 @@ a:hover {
     margin: 10px;
   }
   .bgs-razas .img-logo-razas {
-    height: 25vh;
+    height: 25vh !important;
   }
   .bg-asistencia {
     display: none;
