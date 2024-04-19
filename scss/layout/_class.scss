@@ -1,8 +1,158 @@
+@keyframes class_animaition_one {
+    0% {
+      animation-timing-function: ease-in;
+      opacity: 1;
+      transform: translateX(-48px);
+    }
+  
+    24% {
+      opacity: 1;
+    }
+  
+    40% {
+      animation-timing-function: ease-in;
+      transform: translateX(-26px);
+    }
+  
+    65% {
+      animation-timing-function: ease-in;
+      transform: translateX(-13px);
+    }
+  
+    82% {
+      animation-timing-function: ease-in;
+      transform: translateX(-6.5px);
+    }
+  
+    93% {
+      animation-timing-function: ease-in;
+      transform: translateX(-4px);
+    }
+  
+    25%,
+    55%,
+    75%,
+    87%,
+    98% {
+      animation-timing-function: ease-out;
+      transform: translateX(0px);
+    }
+  
+    100% {
+      animation-timing-function: ease-out;
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+
+  @keyframes class_animaition_two {
+  0% {
+	animation-timing-function: ease-in;
+	opacity: 1;
+	transform: translateX(48px);
+  }
+
+  24% {
+	opacity: 1;
+  }
+
+  40% {
+	animation-timing-function: ease-in;
+	transform: translateX(26px);
+  }
+
+  65% {
+	animation-timing-function: ease-in;
+	transform: translateX(13px);
+  }
+
+  82% {
+	animation-timing-function: ease-in;
+	transform: translateX(6.5px);
+  }
+
+  93% {
+	animation-timing-function: ease-in;
+	transform: translateX(4px);
+  }
+
+  25%,
+  55%,
+  75%,
+  87%,
+  98% {
+	animation-timing-function: ease-out;
+	transform: translateX(0px);
+  }
+
+  100% {
+	animation-timing-function: ease-out;
+	opacity: 1;
+	transform: translateX(0px);
+  }
+}
+
+@keyframes class_animaition_two {
+    0% {
+      animation-timing-function: ease-in;
+      opacity: 1;
+      transform: translateX(48px);
+    }
+  
+    24% {
+      opacity: 1;
+    }
+  
+    40% {
+      animation-timing-function: ease-in;
+      transform: translateX(26px);
+    }
+  
+    65% {
+      animation-timing-function: ease-in;
+      transform: translateX(13px);
+    }
+  
+    82% {
+      animation-timing-function: ease-in;
+      transform: translateX(6.5px);
+    }
+  
+    93% {
+      animation-timing-function: ease-in;
+      transform: translateX(4px);
+    }
+  
+    25%,
+    55%,
+    75%,
+    87%,
+    98% {
+      animation-timing-function: ease-out;
+      transform: translateX(0px);
+    }
+  
+    100% {
+      animation-timing-function: ease-out;
+      opacity: 1;
+      transform: translateX(0px);
+    }
+  }
+
+  
 .section-data-class {
     background-image: url(../img/Images/Fondos/FondoClases2.png);
     border-bottom: 1px solid #495057;
 
     .card {
         border-radius: 0;
+    }
+
+    .slide-left {
+        animation: class_animaition_one 2s ease 1s 1 normal both;
+    }
+
+    .slide-right {
+        animation: class_animaition_two 2s ease 1s 1 normal both;
     }
 }

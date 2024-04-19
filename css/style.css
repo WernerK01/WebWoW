@@ -244,12 +244,147 @@ a:hover {
   width: 250px;
 }
 
+@keyframes class_animaition_one {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 1;
+    transform: translateX(-48px);
+  }
+  24% {
+    opacity: 1;
+  }
+  40% {
+    animation-timing-function: ease-in;
+    transform: translateX(-26px);
+  }
+  65% {
+    animation-timing-function: ease-in;
+    transform: translateX(-13px);
+  }
+  82% {
+    animation-timing-function: ease-in;
+    transform: translateX(-6.5px);
+  }
+  93% {
+    animation-timing-function: ease-in;
+    transform: translateX(-4px);
+  }
+  25%, 55%, 75%, 87%, 98% {
+    animation-timing-function: ease-out;
+    transform: translateX(0px);
+  }
+  100% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+@keyframes class_animaition_two {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 1;
+    transform: translateX(48px);
+  }
+  24% {
+    opacity: 1;
+  }
+  40% {
+    animation-timing-function: ease-in;
+    transform: translateX(26px);
+  }
+  65% {
+    animation-timing-function: ease-in;
+    transform: translateX(13px);
+  }
+  82% {
+    animation-timing-function: ease-in;
+    transform: translateX(6.5px);
+  }
+  93% {
+    animation-timing-function: ease-in;
+    transform: translateX(4px);
+  }
+  25%, 55%, 75%, 87%, 98% {
+    animation-timing-function: ease-out;
+    transform: translateX(0px);
+  }
+  100% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
+@keyframes class_animaition_two {
+  0% {
+    animation-timing-function: ease-in;
+    opacity: 1;
+    transform: translateX(48px);
+  }
+  24% {
+    opacity: 1;
+  }
+  40% {
+    animation-timing-function: ease-in;
+    transform: translateX(26px);
+  }
+  65% {
+    animation-timing-function: ease-in;
+    transform: translateX(13px);
+  }
+  82% {
+    animation-timing-function: ease-in;
+    transform: translateX(6.5px);
+  }
+  93% {
+    animation-timing-function: ease-in;
+    transform: translateX(4px);
+  }
+  25%, 55%, 75%, 87%, 98% {
+    animation-timing-function: ease-out;
+    transform: translateX(0px);
+  }
+  100% {
+    animation-timing-function: ease-out;
+    opacity: 1;
+    transform: translateX(0px);
+  }
+}
 .section-data-class {
   background-image: url(../img/Images/Fondos/FondoClases2.png);
   border-bottom: 1px solid #495057;
 }
 .section-data-class .card {
   border-radius: 0;
+}
+.section-data-class .slide-left {
+  animation: class_animaition_one 2s ease 1s 1 normal both;
+}
+.section-data-class .slide-right {
+  animation: class_animaition_two 2s ease 1s 1 normal both;
+}
+
+@keyframes races_animation {
+  0% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 0.5;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.bgs-razas {
+  height: 80vh;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+.bgs-razas .img-logo-razas {
+  height: 20vh;
+}
+.bgs-razas .logo-animation {
+  animation: races_animation 2s ease 0s 1 normal both;
 }
 
 .consulta-text {
@@ -322,6 +457,9 @@ a:hover {
   }
   .bgs-razas {
     height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
   }
   .bgs-razas .img-logo-razas {
     height: 25vh !important;
