@@ -455,6 +455,13 @@ a:hover {
     color: #ebdec2;
     text-shadow: 1px 2px black;
   }
+  .main-world .img-world {
+    max-height: 200px;
+    height: 180px;
+  }
+  .main-world .world-text {
+    display: none;
+  }
   .bgs-razas {
     height: 100vh;
     background-repeat: no-repeat;
@@ -573,8 +580,7 @@ a:hover {
     text-shadow: 1px 2px black;
   }
   .main-world .img-world {
-    max-height: 200px;
-    height: 180px;
+    display: none;
   }
   .main-world .fondo-global {
     height: 100vh;

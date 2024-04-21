@@ -40,6 +40,17 @@
         }
     }
 
+    .main-world {
+        .img-world {
+            max-height: 200px;
+            height: 180px;
+        }
+
+        .world-text {
+            display: none;
+        }
+    }
+
     .bgs-razas {
 
         height: 100vh;
