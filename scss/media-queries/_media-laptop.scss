@@ -71,4 +71,16 @@
             height: 25vh !important;
         }
     }
+
+    .section-data-class {
+
+        .slide-left {
+            animation: none !important;
+        }
+
+        .slide-right {
+            animation: none !important;
+        }
+
+    }
 }

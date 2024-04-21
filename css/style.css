@@ -114,6 +114,14 @@ a:hover {
   border-image-repeat: round !important;
 }
 
+.line-left {
+  border-left: 1px solid #1A1D20;
+}
+
+.line-right {
+  border-right: 1px solid #1A1D20;
+}
+
 .header {
   border-bottom: 2px solid black;
 }
@@ -162,14 +170,6 @@ a:hover {
 }
 .footer .container .footer-icon:hover {
   width: 160px;
-}
-
-.line-left {
-  border-left: 1px solid #1A1D20;
-}
-
-.line-right {
-  border-right: 1px solid #1A1D20;
 }
 
 .fondo-global {
@@ -523,6 +523,12 @@ a:hover {
   .bgs-razas .img-logo-razas {
     height: 25vh !important;
   }
+  .section-data-class .slide-left {
+    animation: none !important;
+  }
+  .section-data-class .slide-right {
+    animation: none !important;
+  }
 }
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
   .fondos-textos {
@@ -581,6 +587,12 @@ a:hover {
   }
   .bgs-razas .img-logo-razas {
     height: 10vh !important;
+  }
+  .section-data-class .slide-left {
+    animation: none !important;
+  }
+  .section-data-class .slide-right {
+    animation: none !important;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 650px) {
@@ -641,6 +653,12 @@ a:hover {
   }
   .bgs-razas .img-logo-razas {
     height: 12vh !important;
+  }
+  .section-data-class .slide-left {
+    animation: none !important;
+  }
+  .section-data-class .slide-right {
+    animation: none !important;
   }
 }
 @media only screen and (max-width: 1000px) and (orientation: landscape) {

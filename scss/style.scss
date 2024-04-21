@@ -5,28 +5,20 @@
 @import './components/list.scss';
 @import './components/accordion.scss';
 @import './components/border.scss';
+@import './components/lineas.scss';
 
 // LAYOUT
 @import './layout/header.scss';
 @import './layout/footer.scss';
 
-@import './components/lineas.scss';
-
-
 @import './layout/section-bg-texts.scss';
-
-
 @import './layout/expansions.scss';
-
 @import './layout/class.scss';
-
 @import './layout/races.scss';
-
 @import './layout/consulta.scss';
 
 // MIXINS
 @import './utilities/mixins.scss';
-
 
 //  QUERYS
 @import './media-queries/media-4k.scss';
