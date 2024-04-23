@@ -126,7 +126,7 @@ a:hover {
   border-bottom: 2px solid black;
 }
 .header .header-bg {
-  background-image: url(../../img/Images/Fondos/FondoHeader.jpeg);
+  background-image: url(../../img/Images/Fondos/FondoHeader-Footer.jpeg);
 }
 .header .nav-link {
   color: #eed01a;
@@ -154,22 +154,58 @@ a:hover {
 }
 
 .footer {
-  border-top: 1px solid #495057;
   margin-top: 5px;
-  background-image: url(../../img/Images/Fondos/FondoHeader.jpeg);
 }
-.footer .container .row {
-  border-bottom: 1px solid #312A25;
+.footer .container-fluid:nth-child(1) {
+  background-image: url(../../img/Images/Fondos/FondoFooter.jpg);
+  padding: 15px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.125);
 }
-.footer .container .row .col {
+.footer .container-fluid:nth-child(1) .SocialLink-links a {
+  padding: 10px;
+}
+.footer .container-fluid:nth-child(1) .SocialLink-links .Icon {
+  display: inline-block;
+  position: relative;
+  background-repeat: no-repeat;
+}
+.footer .container-fluid:nth-child(2) {
+  background-image: url(../../img/Images/Fondos/FondoHeader-Footer.jpeg);
+  padding: 15px;
+}
+.footer .container-fluid:nth-child(2) .row {
+  padding: 15px;
+}
+.footer .container-fluid:nth-child(2) .row .col {
   margin: 5px;
   padding: 15px;
 }
-.footer .container .footer-icon {
-  transition: 1s;
+.footer .container-fluid:nth-child(2) .row .col .GameDeveloper-Text {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.5019607843);
+  padding-left: 50px;
 }
-.footer .container .footer-icon:hover {
-  width: 160px;
+.footer .container-fluid:nth-child(2) .row .col nav {
+  display: flex;
+  padding-right: 50px;
+}
+.footer .container-fluid:nth-child(2) .row .col nav .footer-link {
+  color: #eed01a;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 18px;
+  text-shadow: #000 1px 2px;
+  margin: 5px;
+  padding: 5px;
+}
+.footer .container-fluid:nth-child(2) .row .col nav .footer-link:hover {
+  color: white;
+  background-color: rgba(255, 255, 255, 0.0509803922);
+  border-radius: 5px;
+}
+.footer .copyright {
+  color: rgba(255, 255, 255, 0.5019607843);
+  font-size: 12px;
 }
 
 .fondo-global {
@@ -536,8 +572,11 @@ a:hover {
   .section-data-class .slide-right {
     animation: none !important;
   }
+  .footer .container-fluid:nth-child(2) .GameDeveloper-Text {
+    padding-left: 50px !important;
+  }
 }
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 970px) {
   .fondos-textos {
     position: absolute;
     right: 15%;
@@ -599,6 +638,13 @@ a:hover {
   }
   .section-data-class .slide-right {
     animation: none !important;
+  }
+  .footer .container-fluid:nth-child(2) .GameDeveloper-Text {
+    margin-top: 20px !important;
+    padding: 0px !important;
+  }
+  .footer .container-fluid:nth-child(2) nav {
+    display: none !important;
   }
 }
 @media only screen and (min-width: 320px) and (max-width: 650px) {
@@ -665,6 +711,13 @@ a:hover {
   }
   .section-data-class .slide-right {
     animation: none !important;
+  }
+  .footer .container-fluid:nth-child(2) .GameDeveloper-Text {
+    margin-top: 20px !important;
+    padding: 0px !important;
+  }
+  .footer .container-fluid:nth-child(2) nav {
+    display: none !important;
   }
 }
 @media only screen and (max-width: 1000px) and (orientation: landscape) {

@@ -1,24 +1,76 @@
 .footer {
-    border-top: 1px solid #495057;
     margin-top: 5px;
-    background-image:  url(../../img/Images/Fondos/FondoHeader-Footer.jpeg);
 
-    .container {
+    .container-fluid:nth-child(1) {
+        background-image: url(../../img/Images/Fondos/FondoFooter.jpg);
+        padding: 15px;
+
+        .SocialLink-links {
+            a {
+                padding: 10px;
+            }
+
+            .Icon {
+                display: inline-block;
+                position: relative;
+                background-repeat: no-repeat;
+            }
+        }
+
+        border-bottom: 1px solid rgba(255, 255, 255, 0.125);
+    }
+
+    .container-fluid:nth-child(2) {
+
+        background-image:  url(../../img/Images/Fondos/FondoHeader-Footer.jpeg);
+        padding: 15px;
+        
         .row {
-            border-bottom: 1px solid #312A25;
             
+            padding: 15px;
+
             .col {
+
                 margin: 5px;
                 padding: 15px;
+
+                .GameDeveloper-Text {
+                    font-size: 15px;
+                    color: #ffffff80;
+                    padding-left: 50px;
+                }
+                
+                nav {
+                    display: flex;
+                    padding-right: 50px;
+                    .footer-link {
+                        color:#eed01a;
+    
+                        text-decoration: none;
+                    
+                        font-weight: bold;
+                        font-size: 18px;
+                    
+                        text-shadow: #000 1px 2px;
+
+                        margin: 5px;
+                        padding: 5px;
+                
+                        &:hover {
+                            color:white;
+                            background-color: #ffffff0d;
+                            border-radius: 5px;
+                        }
+                    }
+                }
             }
         }
 
-        .footer-icon {
-            transition: 1s;
-            &:hover {   
-                width: 160px;
-            }
-        }
+    }
+
+    .copyright {
+        color: #ffffff80;
+        font-size: 12px;
     }
 
 }

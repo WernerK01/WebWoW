@@ -1,4 +1,4 @@
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
+@media only screen and (min-width: 768px) and (max-width: 970px) {
 
     .fondos-textos {
         position: absolute;
@@ -81,5 +81,19 @@
             animation: none !important;
         }
 
+    }
+
+    .footer {
+        .container-fluid:nth-child(2) {
+
+            .GameDeveloper-Text {
+                margin-top: 20px !important;
+                padding: 0px !important;
+            }
+
+            nav {
+                display: none !important;
+            }
+        }
     }
 }

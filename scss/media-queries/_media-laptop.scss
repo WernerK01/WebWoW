@@ -81,6 +81,14 @@
         .slide-right {
             animation: none !important;
         }
+    }
 
+    .footer {
+        .container-fluid:nth-child(2) {
+
+            .GameDeveloper-Text {
+                padding-left: 50px !important;
+            }
+        }
     }
 }
