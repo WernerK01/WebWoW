@@ -68,11 +68,11 @@ a:hover {
   background-color: #2B1D1C !important;
 }
 .accordion-button::after {
-  background-image: url(../img/Others/buttom-expand.png);
+  background-image: url("../img/Others/buttom-expand.png");
   transition: none;
 }
 .accordion-button:not(.collapsed)::after {
-  background-image: url(../img/Others/buttom-unexpand.png);
+  background-image: url("../img/Others/buttom-unexpand.png");
   transform: none;
 }
 .accordion-button:hover {
@@ -110,7 +110,7 @@ a:hover {
   border-image-outset: 7px 8px 7px 8px !important;
   border-image-width: 16px !important;
   border-image-slice: 16 fill !important;
-  border-image-source: url(../img/Others/metal_frame.png) !important;
+  border-image-source: url("../img/Others/metal_frame.png") !important;
   border-image-repeat: round !important;
 }
 
@@ -126,7 +126,7 @@ a:hover {
   border-bottom: 2px solid black;
 }
 .header .header-bg {
-  background-image: url(../img/Images/Fondos/FondoHeader-Footer.jpeg);
+  background-image: url("../img/Images/Fondos/FondoHeader-Footer.jpeg");
 }
 .header .nav-link {
   color: #eed01a;
@@ -150,14 +150,14 @@ a:hover {
   box-shadow: none;
 }
 .header [data-bs-theme=dark] .navbar-toggler-icon {
-  --bs-navbar-toggler-icon-bg: url(../img/Others/icon-menu.png);
+  --bs-navbar-toggler-icon-bg: url("../img/Others/icon-menu.png");
 }
 
 .footer {
   padding-top: 5px;
 }
 .footer .container-fluid:nth-child(1) {
-  background-image: url(../img/Images/Fondos/FondoFooter.jpg);
+  background-image: url("../img/Images/Fondos/FondoFooter.jpg");
   padding: 15px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.125);
 }
@@ -170,7 +170,7 @@ a:hover {
   background-repeat: no-repeat;
 }
 .footer .container-fluid:nth-child(2) {
-  background-image: url(../img/Images/Fondos/FondoHeader-Footer.jpeg);
+  background-image: url("../img/Images/Fondos/FondoHeader-Footer.jpeg");
   padding: 15px;
 }
 .footer .container-fluid:nth-child(2) .row {
@@ -262,12 +262,12 @@ a:hover {
 }
 
 .section-data {
-  background-image: url(../img/Images/Fondos/FondoAzul.jpg);
+  background-image: url("../img/Images/Fondos/FondoAzul.jpg");
   border-bottom: 1px solid #495057;
   padding-top: 30px;
 }
 .section-data .section-data-expansions-bg {
-  background-image: url(../img/Images/Fondos/FondoFooter.jpg);
+  background-image: url("../img/Images/Fondos/FondoFooter.jpg");
   box-shadow: 0 0 10px 1px black inset;
   background-repeat: no-repeat;
   background-size: cover;
@@ -386,7 +386,7 @@ a:hover {
   }
 }
 .section-data-class {
-  background-image: url(../img/Images/Fondos/FondoClases2.png);
+  background-image: url("../img/Images/Fondos/FondoClases2.png");
   border-bottom: 1px solid #495057;
 }
 .section-data-class .card {
