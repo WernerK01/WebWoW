@@ -126,7 +126,7 @@ a:hover {
   border-bottom: 2px solid black;
 }
 .header .header-bg {
-  background-image: url(../../img/Images/Fondos/FondoHeader-Footer.jpeg);
+  background-image: url(../img/Images/Fondos/FondoHeader-Footer.jpeg);
 }
 .header .nav-link {
   color: #eed01a;
@@ -150,14 +150,14 @@ a:hover {
   box-shadow: none;
 }
 .header [data-bs-theme=dark] .navbar-toggler-icon {
-  --bs-navbar-toggler-icon-bg: url(../../img/Others/icon-menu.png);
+  --bs-navbar-toggler-icon-bg: url(../img/Others/icon-menu.png);
 }
 
 .footer {
   padding-top: 5px;
 }
 .footer .container-fluid:nth-child(1) {
-  background-image: url(../../img/Images/Fondos/FondoFooter.jpg);
+  background-image: url(../img/Images/Fondos/FondoFooter.jpg);
   padding: 15px;
   border-bottom: 1px solid rgba(255, 255, 255, 0.125);
 }
@@ -170,7 +170,7 @@ a:hover {
   background-repeat: no-repeat;
 }
 .footer .container-fluid:nth-child(2) {
-  background-image: url(../../img/Images/Fondos/FondoHeader-Footer.jpeg);
+  background-image: url(../img/Images/Fondos/FondoHeader-Footer.jpeg);
   padding: 15px;
 }
 .footer .container-fluid:nth-child(2) .row {
